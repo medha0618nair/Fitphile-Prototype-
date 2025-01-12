@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitphile</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: linear-gradient(to bottom, #e3f2fd, #fce4ec);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: linear-gradient(to right, #4caf50, #42a5f5);
+      color: #fff;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ff80ab;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #42a5f5, #ab47bc);
+      color: #fff;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      padding: 12px 30px;
+      background-color: #fff;
+      color: #ab47bc;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #ab47bc;
+      color: #fff;
+    }
+
+    /* Sections */
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #42a5f5;
+    }
+
+    section p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .features, .plans, .leaderboard {
+      background-color: #fff;
+      border-top: 1px solid #e0e0e0;
+    }
+
+    .features .feature-item, .plans .plan-item, .leaderboard .leaderboard-item {
+      margin: 20px 0;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      background: linear-gradient(to right, #ab47bc, #f06292);
+      color: #fff;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #4caf50;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Fitphile</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="leaderboard.html">Leaderboard</a></li> <!-- Updated Link -->
+        <li><a href="arvr.html">AR/VR Sessions</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+  
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to Fitphile</h1>
+    <p>Your ultimate fitness companion. Join a community that keeps you motivated and moving!</p>
+    <button class="cta-button" onclick="window.location.href='login.html'">Get Started</button>
+  </section>
+
+  <!-- About Us Section -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Fitphile, we are redefining fitness with AI-powered features, AR/VR experiences, and wearable sensors to keep you on track. 
+      Our mission is to inspire and motivate users around the globe to achieve their fitness goals while having fun. We hope 
+      you enjoy this journey toward a healthier and happier you!
+    </p>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-item">
+      <h3>AI Posture Detection</h3>
+      <p>Wear sensors to perfect your posture during workouts or yoga sessions.</p>
+    </div>
+    <div class="feature-item">
+      <h3>AR/VR Games</h3>
+      <p>Engage in immersive fitness challenges through augmented and virtual reality.</p>
+    </div>
+    <div class="feature-item">
+      <h3>Tailored Plans</h3>
+      <p>Programs designed for different age groups and fitness levels.</p>
+    </div>
+  </section>
+
+  <!-- Plans Section -->
+  <section id="plans" class="plans">
+    <h2>Plans</h2>
+    <div class="plan-item">
+      <h3>18-30 Fitness</h3>
+      <p>High-intensity workouts, strength training, and AR fitness games.</p>
+    </div>
+    <div class="plan-item">
+      <h3>50+ Yoga</h3>
+      <p>Gentle yoga sessions, flexibility exercises, and posture improvement.</p>
+    </div>
+  </section>
+
+  <!-- Leaderboard Section -->
+  <section id="leaderboard" class="leaderboard">
+    <h2>Leaderboard</h2>
+    <p>Compete with friends in tournaments and see your rank on the leaderboard.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Fitphile. All rights reserved.</p>
+    <p>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>

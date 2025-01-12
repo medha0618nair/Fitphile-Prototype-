@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard - Fitphile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #81ecec, #74b9ff);
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #0984e3;
+            color: #fff;
+            padding: 1rem 2rem;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1rem;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .leaderboard-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #2d3436;
+        }
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            padding: 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 1rem;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .card h3 {
+            margin: 0.5rem 0;
+        }
+        .card p {
+            margin: 0.3rem 0;
+            color: #636e72;
+        }
+        .card span {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.3rem 0.8rem;
+            background: #74b9ff;
+            color: white;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Fitphile</h1>
+        <div>
+            <li><a href="#about">About Us</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="leaderboard.html">Leaderboard</a></li> <!-- Updated Link -->
+        <li><a href="arvr.html">AR/VR Sessions</a></li>
+
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="leaderboard-title">Leaderboard</h1>
+        <div class="card-container">
+            <!-- User 1 -->
+            <div class="card">
+                <img src="assets/images/avatar1.png" alt="User Avatar">
+                <h3>John Doe</h3>
+                <p>Virtual Sport: Tennis</p>
+                <span>Score: 95</span>
+            </div>
+            <!-- User 2 -->
+            <div class="card">
+                <img src="assets/images/avatar2.png" alt="User Avatar">
+                <h3>Jane Smith</h3>
+                <p>Virtual Sport: Ping Pong</p>
+                <span>Score: 88</span>
+            </div>
+            <!-- User 3 -->
+            <div class="card">
+                <img src="assets/images/avatar3.png" alt="User Avatar">
+                <h3>Emily Davis</h3>
+                <p>Virtual Sport: Badminton</p>
+                <span>Score: 92</span>
+            </div>
+            <!-- User 4 -->
+            <div class="card">
+                <img src="assets/images/avatar4.png" alt="User Avatar">
+                <h3>Michael Brown</h3>
+                <p>Virtual Sport: Soccer</p>
+                <span>Score: 85</span>
+            </div>
+            <!-- User 5 -->
+            <div class="card">
+                <img src="assets/images/avatar5.png" alt="User Avatar">
+                <h3>Sophia Johnson</h3>
+                <p>Virtual Sport: Yoga</p>
+                <span>Score: 89</span>
+            </div>
+            <!-- User 6 -->
+            <div class="card">
+                <img src="assets/images/avatar6.png" alt="User Avatar">
+                <h3>Daniel Lee</h3>
+                <p>Virtual Sport: Cycling</p>
+                <span>Score: 91</span>
+            </div>
+            <!-- User 7 -->
+            <div class="card">
+                <img src="assets/images/avatar7.png" alt="User Avatar">
+                <h3>Isabella Wilson</h3>
+                <p>Virtual Sport: Swimming</p>
+                <span>Score: 87</span>
+            </div>
+            <!-- User 8 -->
+            <div class="card">
+                <img src="assets/images/avatar8.png" alt="User Avatar">
+                <h3>Oliver Martinez</h3>
+                <p>Virtual Sport: Running</p>
+                <span>Score: 93</span>
+            </div>
+            <!-- User 9 -->
+            <div class="card">
+                <img src="assets/images/avatar9.png" alt="User Avatar">
+                <h3>Ava Thompson</h3>
+                <p>Virtual Sport: Tennis</p>
+                <span>Score: 94</span>
+            </div>
+            <!-- User 10 -->
+            <div class="card">
+                <img src="assets/images/avatar10.png" alt="User Avatar">
+                <h3>Liam Garcia</h3>
+                <p>Virtual Sport: Badminton</p>
+                <span>Score: 90</span>
+            </div>
+            <!-- User 11 -->
+            <div class="card">
+                <img src="assets/images/avatar11.png" alt="User Avatar">
+                <h3>Mia Anderson</h3>
+                <p>Virtual Sport: Ping Pong</p>
+                <span>Score: 86</span>
+            </div>
+            <!-- User 12 -->
+            <div class="card">
+                <img src="assets/images/avatar12.png" alt="User Avatar">
+                <h3>Lucas Robinson</h3>
+                <p>Virtual Sport: Soccer</p>
+                <span>Score: 89</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

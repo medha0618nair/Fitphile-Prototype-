@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plans - Fitphile</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background: linear-gradient(to bottom, #fce4ec, #e3f2fd);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: linear-gradient(to right, #4caf50, #42a5f5);
+      color: #fff;
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover {
+      color: #ff80ab;
+    }
+
+    /* Page Heading */
+    .heading {
+      text-align: center;
+      padding: 50px 20px;
+      background: linear-gradient(to right, #ab47bc, #42a5f5);
+      color: #fff;
+    }
+
+    .heading h1 {
+      font-size: 2.5rem;
+    }
+
+    /* Plans Section */
+    .plans {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+
+    .plan-box {
+      background: #fff;
+      border: 2px solid #42a5f5;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .plan-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .plan-box h3 {
+      color: #42a5f5;
+      margin-bottom: 10px;
+    }
+
+    .plan-box p {
+      font-size: 1rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    .plan-box button {
+      padding: 10px 20px;
+      background: #42a5f5;
+      color: #fff;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .plan-box button:hover {
+      background: #4caf50;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 20px;
+      background: linear-gradient(to right, #ab47bc, #f06292);
+      color: #fff;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .footer a:hover {
+      color: #4caf50;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Fitphile</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About Us</a></li>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="arvr.html">AR/VR Sessions</a></li>
+        <li><a href="index.html#leaderboard">Leaderboard</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Heading -->
+  <div class="heading">
+    <h1>Our Plans</h1>
+    <p>Choose the perfect plan tailored to your fitness goals.</p>
+  </div>
+
+  <!-- Plans Section -->
+  <section class="plans">
+    <div class="plan-box">
+      <h3>18-30 Fitness</h3>
+      <p>High-intensity workouts, strength training, and AR fitness games.</p>
+      <button>Explore Now</button>
+    </div>
+    <div class="plan-box">
+      <h3>50+ Yoga</h3>
+      <p>Gentle yoga sessions, flexibility exercises, and posture improvement.</p>
+      <button>Explore Now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Fitphile. All rights reserved.</p>
+    <p>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>
